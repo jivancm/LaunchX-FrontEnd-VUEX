@@ -1,0 +1,294 @@
+[{
+        "sku": 2,
+        "nombre": "Moka",
+        "descripcion": "Pan de chocolate envinado con crema de café y chocolate, decorado con láminas de chocolate con leche.",
+        "descripcionCorta": "Dulce tentación de chocolate"
+        },
+        {
+        "sku": 6,
+        "nombre": "Concorde",
+        "descripcion": "Discos de merengue de chocolate con mousse de chocolate decorado con troncos de merengue y cubierto de cocoa y glass.",
+        "descripcionCorta": "Para los amantes del chocolate esta será la mejor opción."
+        },
+        {
+        "sku": 10,
+        "nombre": "Mousse de guayaba",
+        "descripcion": "Base de pan de vainilla con mousse de guayabas naturales, decorado con jarabe de guayaba y canela",
+        "descripcionCorta": "El sabor frutal predomina en esta deliciosa opción."
+        },
+        {
+        "sku": 14,
+        "nombre": "Tres leches de Fresa",
+        "descripcion": "Pan de vainilla humectado con 3 leches relleno de fresa y crema dulce.",
+        "descripcionCorta": "El clásico sabor de tus reuniones familiares..."
+        },
+        {
+        "sku": 18,
+        "nombre": "Moka",
+        "descripcion": "Pan de chocolate envinado con crema de café y chocolate, decorado con láminas de chocolate con leche.",
+        "descripcionCorta": "El clásico sabor de tus reuniones familiares..."
+        },
+        {
+        "sku": 22,
+        "nombre": "Duque de Fresa",
+        "descripcion": "Discos de merengue rellenos de crema batida dulce y fresa, decorado con tapas de merengue.",
+        "descripcionCorta": "El sabor de la tradición de Elizondo."
+        },
+        {
+        "sku": 26,
+        "nombre": "Mil hojas con fresas",
+        "descripcion": "Pasta hojaldrada relleno y decorado con crema dulce y fresas.",
+        "descripcionCorta": "Ese momento del cumpleaños reunidos con la familia"
+        },
+        {
+        "sku": 30,
+        "nombre": "Arco Iris",
+        "descripcion": "Pan de chocolate y vainilla relleno de trufa, fresa y durazno, decorado con fruta. Ese momento de convivir entre generaciones, hijos, nietos, abuelos... la mejor compañía.",
+        "descripcionCorta": "Para convivir en familia"
+        },
+        {
+        "sku": 34,
+        "nombre": "Brazo de Fresa",
+        "descripcion": "Rollo de pan de vainilla con crema dulce y fresas.",
+        "descripcionCorta": "Ese momento donde los amigos te avientan al pastel..."
+        },
+        {
+        "sku": 38,
+        "nombre": "Moka doble",
+        "descripcion": "Pan de chocolate envinado con crema de café y chocolate decorado con láminas de chocolate con leche",
+        "descripcionCorta": "Compartiendo la tradición en Grande..."
+        },
+        {
+        "sku": 42,
+        "nombre": "Mil Hojas Cajeta",
+        "descripcion": "Pasta hojaldrada relleno de crema de cajeta, decorado con fondant y cajeta.",
+        "descripcionCorta": "El toque especial de este pastel es el recuerdo de su creación..."
+        },
+        {
+        "sku": 46,
+        "nombre": "Duquesa",
+        "descripcion": "Base de panqué con crema pastelera y decorado con frutas",
+        "descripcionCorta": "El detalle es para quien fue pensado compartirlo"
+        },
+        {
+        "sku": 50,
+        "nombre": "Red Velvet",
+        "descripcion": "Pan rojo de cocoa con crema de queso."
+        },
+        {
+        "sku": 55,
+        "nombre": "Pastel de Zanahoria",
+        "descripcion": "Pan de zanahoria con nuez y piña cubierto con crema de queso dulce.",
+        "descripcionCorta": "El consentido cuando eramos niños.."
+        },
+        {
+        "sku": 59,
+        "nombre": "Tarta de Limón",
+        "descripcion": "Base de pasta sucre con almendra, crema de limón y merengue flameado.",
+        "descripcionCorta": "El detalle inesperado para la reunión con las amigas"
+        },
+        {
+        "sku": 63,
+        "nombre": "Tarta de Higo",
+        "descripcion": "Base de pasta sucre con almendras, crema de queso e higos frescos",
+        "descripcionCorta": "El delicioso sabor de la naturaleza."
+        },
+        {
+        "sku": 67,
+        "nombre": "Cheese Cake",
+        "descripcion": "Pastel de queso con base de galleta y mermelada de zarzamora.",
+        "descripcionCorta": "Un clásico para disfrutar con las amigas por la tarde"
+        },
+        {
+        "sku": 71,
+        "nombre": "Tres leches Durazno",
+        "descripcion": "Pan de vainilla humectado con 3 leches relleno de durazno y crema dulce.",
+        "descripcionCorta": "El clásico sabor de tus reuniones familiares..."
+        },
+        {
+        "sku": 75,
+        "nombre": "Mousse Chocolate",
+        "descripcion": "Base de pan de chocolate, mousse de chocolate semi amargo cubierto de ganache, decorado con frambuesas frescas.",
+        "descripcionCorta": "Uno de los favoritos de Elizondo"
+        },
+        {
+        "sku": 79,
+        "nombre": "Ponche Ruso",
+        "descripcion": "Pan de vainilla envinado relleno de crema pastelera y almendras cubierto de yema dulce.",
+        "descripcionCorta": "Nuestra tradicional receta"
+        },
+        {
+        "sku": 83,
+        "nombre": "Mousse de Fresa",
+        "descripcion": "Base de pan de vainilla, mousse de fresa y decorado con crema dulce y fruta."
+        },
+        {
+        "sku": 87,
+        "nombre": "Barra de  Frutas",
+        "descripcion": "Pan de vainilla envinado relleno y decorado con fruta surtida y crema dulce"
+        },
+        {
+        "sku": 91,
+        "nombre": "Mil Hojas de Nuez",
+        "descripcion": "Pasta hojaldrada, relleno de crema pastelera y nuez, cubierto de crema dulce y cerezas."
+        },
+        {
+        "sku": 95,
+        "nombre": "Mauri",
+        "descripcion": "Pan de chocolate envinado relleno de crema de cajeta con fresas, decorado con ganache",
+        "descripcionCorta": "Deliciosos momentos con la mejor compañía"
+        },
+        {
+        "sku": 99,
+        "nombre": "Tres leches doble de Durazno",
+        "descripcion": "Pan de vainilla humectado con 3 leches, relleno de durazno y crema dulce.",
+        "descripcionCorta": "Deliciosos momentos con la mejor compañía"
+        },
+        {
+        "sku": 103,
+        "nombre": "Tres leches  doble de Fresa",
+        "descripcion": "Pan de vainilla humectado con 3 leches, relleno de fresa y crema dulce.",
+        "descripcionCorta": "Deliciosos momentos con la mejor compañía"
+        },
+        {
+        "sku": 107,
+        "nombre": "Tres Leches Gourmet",
+        "descripcion": "Pan de vanilla con tres leches especial con un toque de ron, cubierto de crema dulce."
+        },
+        {
+        "sku": 111,
+        "nombre": "Tarta de Zarzamora",
+        "descripcion": "Base de pasta sucre con ganache de chocolate blanco y zarzamoras naturales."
+        },
+        {
+        "sku": 115,
+        "nombre": "Mousse de Mango",
+        "descripcion": "Mousse de crema de mango sobre pan de vainilla."
+        },
+        {
+        "sku": 119,
+        "nombre": "Ópera",
+        "descripcion": "Biscocho de almendra y capas intercaladas con crema de mantequilla, café y ganache de chocolate."
+        },
+        {
+        "sku": 123,
+        "nombre": "Chocolate Supremo",
+        "descripcion": "Genovesa de chocolate con jarabe de ron, trufa y cubierto de ganache de chocolate."
+        },
+        {
+        "sku": 127,
+        "nombre": "Princesa",
+        "descripcion": "Pan de chocolate y tres leches relleno de trufa con fresa, decorado con lajas de chocolate con lehce."
+        },
+        {
+        "sku": 131,
+        "nombre": "Cheese cake Stevia",
+        "descripcion": "Pastel de queso horneado sobre galleta con dulce de zarzamora, totalmente libre de azucar."
+        },
+        {
+        "sku": 135,
+        "nombre": "Tres leches de Durazno sencillo",
+        "descripcion": "Pan de vainilla humectado con 3 leches, relleno de durazno y crema dulce."
+        },
+        {
+        "sku": 139,
+        "nombre": "Pastel de Chocolate",
+        "descripcion": "Pan de chocolate relleno de ganache, cubierto de crema de chocolate y glaseado con ganache."
+        },
+        {
+        "sku": 143,
+        "nombre": "Sacher",
+        "descripcion": "Pan especial de chocolate relleno de mermelada de chabacano cubierto con ganache."
+        },
+        {
+        "sku": 147,
+        "nombre": "Delirio de Chocolate",
+        "descripcion": "Pan cremoso de chocolate, relleno y cubierto de trufa cocida y glaseado de cocoa oscura.",
+        "descripcionCorta": "Un detalle para una persona especial"
+        },
+        {
+        "sku": 151,
+        "nombre": "Chocolate Stevia",
+        "descripcion": "Pan tipo americano de chocolate relleno y cubierto con ganache de chocolate libre de azúcar."
+        },
+        {
+        "sku": 156,
+        "nombre": "Mozaico Sevillano",
+        "descripcion": "Pan de vainilla envinado de tres leches de cajeta relleno con una capa de flan napolitano cubierto de crema dulce y glaseado de crema de cajeta."
+        },
+        {
+        "sku": 160,
+        "nombre": "Reyna de Durazno",
+        "descripcion": "Pan de vainilla envinado relleno de durazno y crema dulce."
+        },
+        {
+        "sku": 164,
+        "nombre": "Reyna de Fresa",
+        "descripcion": "Pan de vainilla envinado relleno de fresa y crema dulce."
+        },
+        {
+        "sku": 168,
+        "nombre": "Pay de Frutas",
+        "descripcion": "Pay de queso cubierto de crema dulce y frutas"
+        },
+        {
+        "sku": 172,
+        "nombre": "Pastel de Queso",
+        "descripcion": "Pan de queso relleno de crema dulce y durazno, cubierto con rizos de chocolate."
+        },
+        {
+        "sku": 176,
+        "nombre": "Napolitano",
+        "descripcion": "Pan de chocolate envinado, relleno de crema de chocolate y nuez, cubierto de crema dulce y cerezas."
+        },
+        {
+        "sku": 180,
+        "nombre": "Trufa",
+        "descripcion": "Pan de chocolate relleno de trufa y nuez, decorado con cerezas."
+        },
+        {
+        "sku": 184,
+        "nombre": "Melanea Doble",
+        "descripcion": "Pan de vainilla envinado,  relleno de crema dulce y fresas."
+        },
+        {
+        "sku": 188,
+        "nombre": "Holandesa",
+        "descripcion": "Pan ligero de chocolate relleno de crema de café cubierto de crema dulce."
+        },
+        {
+        "sku": 192,
+        "nombre": "Melanea Sencilla",
+        "descripcion": "Pan de vainilla envinado, relleno de crema dulce y fresas."
+        },
+        {
+        "sku": 196,
+        "nombre": "Flan Napolitano",
+        "descripcion": "El tradicional horneado."
+        },
+        {
+        "sku": 200,
+        "nombre": "Gelatina",
+        "descripcion": "Mozaico de Leche Trozos de gelatina de sabores combinados en gelatina de leche."
+        },
+        {
+        "sku": 204,
+        "nombre": "Gelatina Mozaico de Leche",
+        "descripcion": "Trozos de gelatina de sabores combinados en gelatina de leche."
+        },
+        {
+        "sku": 208,
+        "nombre": "Gelatina de Leche con Frutas",
+        "descripcion": "Gelatina de leche con fruta natural."
+        },
+        {
+        "sku": 212,
+        "nombre": "Gelatina de Frutas",
+        "descripcion": "Combinación de gelatina de leche y agua con frutas."
+        },
+        {
+        "sku": 216,
+        "nombre": "Gelatina Light",
+        "descripcion": "Elaborada con leche light y Splenda."
+        }
+]
