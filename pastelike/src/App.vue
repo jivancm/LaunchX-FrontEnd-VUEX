@@ -40,6 +40,12 @@ export default {
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body{
     margin: 0px;
     background-color: #FDFFE7;
