@@ -1,8 +1,5 @@
 <template>
     <div class="container">
-        <div class="detalles">
-            {{ $store.state.ordenes }}
-        </div>
         <form>
             <div class="contacto row">
                 <div class="input-group input-group-icon">

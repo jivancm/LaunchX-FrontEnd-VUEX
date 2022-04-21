@@ -2,7 +2,7 @@
   <div class="home">
     <section class="pasteles">
       <div class="container">
-        <Pastel v-for=" pastel in pasteles " v-bind:pastel="pastel" />
+        <Pastel v-for=" pastel in this.$store.getters.pasteles " v-bind:pastel="pastel" />
       </div>
     </section>
   </div>
@@ -20,6 +20,7 @@ export default {
     Footer
   },
   created : async function(){
+    /*
     console.log('cargado');
     const data = await fetch('/pasteles.json');
     this.pasteles = await data.json();
@@ -28,12 +29,16 @@ export default {
         this.pasteles[i].descripcionCorta = "Para esa persona especial"
       }
     }
+    */
+   this.$store.dispatch('cargarPasteles');
   },
+  /*
   data(){
     return {
       pasteles : []
     }
   }
+  */
 }
 </script>
 

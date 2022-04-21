@@ -56,13 +56,13 @@ export default {
             let img = event.target.parentElement.parentElement.querySelector('.img').style.backgroundImage.replace("url(", '').replace(")", '').replace('"', '');
             let precio = event.target.parentElement.parentElement.querySelector('.precio').innerHTML.replace("$", '').replace(" ", '');
             let ok = event.target.parentElement.querySelector('.ok');
-            let orden = {
+            let pastel = {
                 sku: idPastel, 
                 imagen: img,
                 precio: precio
             };
-            console.log(orden);
-            this.$store.commit('addOrden', orden);
+            console.log(pastel);
+            this.$store.dispatch('addPastel', pastel);
             Cart.methods.onComprar();
             event.target.style.display = 'none';
             ok.style.display = 'block';

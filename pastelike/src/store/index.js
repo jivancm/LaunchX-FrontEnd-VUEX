@@ -3,38 +3,67 @@ import Orden from './orden.js';
 
 export default createStore({
   state: {
-    orden : [], 
+    orden : null,
+    pasteles: []
   },
   getters: {
-    orden(){
-      
+    orden: (state) =>{
+      return state.orden;
+    },
+    pasteles : (state) => {
+      return state.pasteles;
+    },
+    pastelBySKU : (state) => (sku) => {
+      console.log("Buscando Sku: ", sku);
+      return state.pasteles.find( pastel => pastel.sku == sku );
     }
   },
   mutations: {
-    addOrden(state, orden){
-      state.orden.push( new Orden(orden) );
+    createOrden(state){
+      state.orden = new Orden();
     },
-    iniciaOrden(state, pos){
-      state.orden[pos].iniciar();
+    startOrden(state){
+      state.orden.iniciar();
       // Notificar al cliente
     },
-    terminaOrden(state, pos){
-      state.orden[pos].terminar();
+    finishOrden(state){
+      state.orden.terminar();
       // Notificar al cliente
     },
-    entregaOrden(state, pos){
-      state.orden[pos].entregar();
+    deliverOrden(state){
+      state.orden.entregar();
       // Notificar al cliente
     },
-    cancelarOrden(state, pos){
-      state.orden[pos].cancelar();
+    cancelOrden(state){
+      state.orden.cancelar();
+    },
+    setOrdenDatos(state, datos){
+      state.orden.setDatos(datos);
+    },
+
+    addPastel(state, pastel){
+      if(!state.orden){
+        this.commit('createOrden');
+      }
+      state.orden.pasteles.push(pastel);
+    },
+
+    setPasteles : (state, pasteles) =>{
+      state.pasteles = [...pasteles];
     }
   },
   actions: {
     cargarPasteles: async function ({ commit }){
       const data = await fetch('/pasteles.json');
       const pasteles = await data.json();
-      commit('addPasteles', pasteles);
+      commit('setPasteles', pasteles);
+    }, 
+
+    addPastel : ({commit, getters}, pastel) => {
+      console.log(getters, pastel);
+      let pastelObj = getters.pastelBySKU(pastel.sku);
+      console.log({...pastelObj, ...pastel});
+      commit('addPastel', {...pastelObj, ...pastel});
     }
   },
   modules: {

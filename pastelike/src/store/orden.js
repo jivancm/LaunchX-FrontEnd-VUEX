@@ -1,6 +1,24 @@
+/** Objeto pastel */
+const Pastel = class {
+    sku;
+    nombre;
+    descripcion;
+    imagen;
+    decoracion;
+    sabor;
+    tamaño;
+    precio;
+
+    constructor(pastel){
+        if(typeof pastel === 'string' || typeof pastel === 'number'){
+            /** getPastelBySKU */
+        }
+        ( {sku: this.sku, nombre: this.nombre, descripcion: this.descripcion,
+           imagen: this.imagen, precio: this.precio} = pastel );
+    }
+}
 
 /** Objeto orden */
-
 const Orden = class {
     // Datos de la persona que ordena
     nombre;
@@ -8,23 +26,13 @@ const Orden = class {
     telefono;
 
     // Configuración del pastel
-    sku;
-    precio;
-    tamaño;
-    sabor;
-    decoracion;
+    pasteles;
 
     // Procesamiento
     fecha;
     entrega; // domicilio | recoge
 
-    constructor(orden){
-       (
-           { nombre: this.nombre, correo: this.correo, telefono: this.telefono,
-             sku: this.sku, tamaño: this.tamaño, sabor:this.sabor, precio: this.precio,
-             imagen: this.imagen, decoracion:this.decoracion, entrega: this.entrega 
-           } = orden
-        )
+    constructor(){
        this.fecha = {
                         recibido: new Date().toLocaleString(), 
                         iniciado: false, 
@@ -32,6 +40,7 @@ const Orden = class {
                         entregado: false, 
                         cancelado: false
                     };
+        this.pasteles = [];
     };
 
     iniciar(){
@@ -49,6 +58,18 @@ const Orden = class {
     cancelar(){
         if(this.fecha.iniciado) return false;
         this.fecha.cancelado = new Date().toLocaleString();
+    }
+
+    setDatos(datos){
+        (
+            { nombre: this.nombre, correo: this.correo, telefono: this.telefono,
+              entrega: this.entrega
+            } = datos
+         )
+    }
+
+    addPastel(pastel){
+        this.pasteles.push(new Pastel(pastel));
     }
 }
 
